@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
 	outline: none;
 }
@@ -14,5 +15,8 @@
 	display:none;
 }
 body{
-	font-family:roboto;
+	font-family: 'Roboto', sans-serif;
+}
+.wpcf7-response-output{
+	display:none;
 }
