@@ -17,3 +17,6 @@
 body{
 	font-family: 'Roboto', sans-serif;
 }
+.wpcf7-response-output{
+	display:none;
+}
