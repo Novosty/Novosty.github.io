@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 *{
 	outline: none;
+	font-family: 'Roboto', sans-serif;
 }
 .vi_widget_img{
 	display: none;
@@ -13,9 +14,6 @@
 }
 .form-box{
 	display:none;
-}
-body{
-	font-family: 'Roboto', sans-serif;
 }
 .wpcf7-response-output{
 	display:none;
