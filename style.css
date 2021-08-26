@@ -18,6 +18,9 @@
 .wpcf7-response-output{
 	display:none; 
 }
+a{
+	text-decoration: none;
+}
 @media screen and (max-width: 1213px) { 
-	
+
 }
