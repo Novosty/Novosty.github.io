@@ -1,0 +1,116 @@
+User-agent: *
+Disallow: /admin            # запрещает обход админки
+Disallow: /login            # запрещает обход страницы аутенфикации
+Disallow: /artisan          # служебный URL
+Disallow: /password
+Disallow: /enable_debug
+Disallow: /clear_debug
+Disallow: /clear
+Disallow: /_debugbar
+Disallow: /user_manager
+Disallow: /presentation*    # Сcылка на скачивание презентации
+Disallow: /realty/filter    # ajax запрос результатов фильтра
+Disallow: *?*               # запрет обхода страниц с параметрами
+Disallow: *utm*=            # запрет utm-меток
+Disallow: *openstat=        # запрет меток openstat
+Disallow: *sid=             # запрет меток sid
+Disallow: *gclid=           # запрет меток gclid
+Disallow: *roistat=         # запрет меток roistat
+Disallow: *from=            # запрет меток from
+Disallow: *.pdf             # закрываем все pdf
+Allow: /css/*.css           # открываем ресурсы, css, js..
+Allow: /js/*.js
+Allow: /assets/*.js
+Allow: /assets/*.css
+Allow: /dist/*.js
+Allow: /dist/*.css
+Allow: /assets/*.jpg
+Allow: /assets/*.png
+Allow: /assets/*.jpeg
+Allow: /assets/*.svg
+Allow: /uploads/*.jpg
+Allow: /uploads/*.png
+Allow: /uploads/*.jpeg
+Allow: /uploads/*.svg
+
+User-agent: GoogleBot
+Disallow: /admin            # запрещает обход админки
+Disallow: /login            # запрещает обход страницы аутенфикации
+Disallow: /artisan          # служебный URL
+Disallow: /password
+Disallow: /enable_debug
+Disallow: /clear_debug
+Disallow: /clear
+Disallow: /_debugbar
+Disallow: /user_manager
+Disallow: /presentation*    # Сcылка на скачивание презентации
+Disallow: /realty/filter    # ajax запрос результатов фильтра
+Disallow: *?*               # запрет обхода страниц с параметрами
+Disallow: *utm*=            # запрет utm-меток
+Disallow: *openstat=        # запрет меток openstat
+Disallow: *sid=             # запрет меток sid
+Disallow: *gclid=           # запрет меток gclid
+Disallow: *roistat=         # запрет меток roistat
+Disallow: *from=            # запрет меток from
+Disallow: *.pdf             # закрываем все pdf
+Allow: /css/*.css           # открываем ресурсы, css, js..
+Allow: /js/*.js
+Allow: /assets/*.js
+Allow: /assets/*.css
+Allow: /dist/*.js
+Allow: /dist/*.css
+Allow: /assets/*.jpg
+Allow: /assets/*.png
+Allow: /assets/*.jpeg
+Allow: /assets/*.svg
+Allow: /uploads/*.jpg
+Allow: /uploads/*.png
+Allow: /uploads/*.jpeg
+Allow: /uploads/*.svg
+
+User-agent: Yandex
+Disallow: /admin            # запрещает обход админки
+Disallow: /login            # запрещает обход страницы аутенфикации
+Disallow: /artisan          # служебный URL
+Disallow: /password
+Disallow: /enable_debug
+Disallow: /clear_debug
+Disallow: /clear
+Disallow: /_debugbar
+Disallow: /user_manager
+Disallow: /presentation*    # Сcылка на скачивание презентации
+Disallow: /realty/filter    # ajax запрос результатов фильтра
+Disallow: *?*               # запрет обхода страниц с параметрами
+Disallow: *utm*=            # запрет utm-меток
+Disallow: *openstat=        # запрет меток openstat
+Disallow: *sid=             # запрет меток sid
+Disallow: *gclid=           # запрет меток gclid
+Disallow: *roistat=         # запрет меток roistat
+Disallow: *from=            # запрет меток from
+Disallow: *.pdf             # закрываем все pdf
+Allow: /css/*.css           # открываем ресурсы, css, js..
+Allow: /js/*.js
+Allow: /assets/*.js
+Allow: /assets/*.css
+Allow: /dist/*.js
+Allow: /dist/*.css
+Allow: /assets/*.jpg
+Allow: /assets/*.png
+Allow: /assets/*.jpeg
+Allow: /assets/*.svg
+Allow: /uploads/*.jpg
+Allow: /uploads/*.png
+Allow: /uploads/*.jpeg
+Allow: /uploads/*.svg
+Clean-param: utm_term       # очистка URL от меток и параметров для яндекса
+Clean-param: utm_source
+Clean-param: utm_medium
+Clean-param: utm_campaign
+Clean-param: utm_content
+Clean-param: sid
+Clean-param: gclid
+Clean-param: openstat
+Clean-param: roistat
+Clean-param: from
+
+Sitemap: https://whitewill.ru/sitemap.xml

@@ -1,0 +1,14 @@
+$(function(){
+    console.log('+tooltip');
+    var $tt=$('#tooltip');
+    if($tt.length){
+        $tt
+        .on('show',function(){$tt.addClass('tt-show')})
+        .on('full',function(){$tt.toggleClass('tt-full')})
+        .on('close',function(){$tt.removeClass('tt-show')})
+        .on('click','.tt-logo,.tt-text',function(){$tt.trigger('full')})
+        .on('click','.tt-close',function(){$tt.trigger('close')});
+        if( $tt.data('enable')=='Включен' || window.location.hash=='#tooltip')
+            $tt.trigger('show')
+    }
+})
