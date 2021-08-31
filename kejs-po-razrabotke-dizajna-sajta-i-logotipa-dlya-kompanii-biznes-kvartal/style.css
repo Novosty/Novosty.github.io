@@ -28,6 +28,10 @@ p{font-family:'Roboto';}
 a{
 	text-decoration: none;
 }
+.marquiz__bg marquiz__bg_open{
+	display: none;
+}
+
 @media screen and (max-width: 1213px) { 
 
 }
