@@ -636,3 +636,13 @@ footer a:hover {
 .ing-item a p {
   color: #220000;
 }
+
+.step-row {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.step-row img {
+  width: 265px;
+}
