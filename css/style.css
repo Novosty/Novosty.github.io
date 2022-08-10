@@ -585,21 +585,23 @@ footer a:hover {
 }
 
 .img-item {
-  width: 110px;
-  height: 100px;
+  width: 265px;
+  height: 150px;
   margin-right: 20px;
   margin-bottom: 20px;
 }
 
 .ing-row {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   width: 100%;
 }
 
 .ing-item {
   display: flex;
-  width: 100%;
+  flex-direction: column;
+  width: 265px;
+  padding-bottom: 15px;
   flex: 0 1 50%;
 }
 
@@ -627,14 +629,10 @@ footer a:hover {
   font-size: 16px;
 }
 
-.links {
-  display: flex;
-  justify-content: center;
-  margin-top: 25px;
-  gap: 15px;
-  font-size: 18px;
+.ing-item a {
+  text-decoration: none;
 }
 
-a.active {
-  color: #1e0000;
+.ing-item a p {
+  color: #220000;
 }
